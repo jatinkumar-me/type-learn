@@ -16,6 +16,7 @@ function App() {
 
   useEffect(() => { dispatch(initTest()); }
     , [])
+
   return (
     <main className="main">
       <Navbar inputRef={inputRef} />
