@@ -24,21 +24,30 @@ Node.js (v14 or higher) installed on your system.
 2. Change to the directory where you want to clone the repository.
 3. Run the following command to clone the repository:
 bash
-``git clone https://github.com/jatinkumar-me/type-learn.git``
+```
+git clone https://github.com/jatinkumar-me/type-learn.git
+```
 
 ### Install Dependencies
 Install the project dependencies:
-``npm install``
+```
+npm install
+```
 
 ### Start the Application
 1. Run the following command to start the development server:
-``npm run dev``
+``
+npm run dev
+``
 2. Open your web browser and visit http://localhost:3000 to access the Type Learn application.
 
 ### Building the Application
 If you want to build the application for production, you can use the following command:
-``npm run build``
-This command will create an optimized and minified build of the application in the build directory.
+```
+npm run build
+```
+
+This command will create an optimized and minified build of the application in the dist directory.
 
 ## Contributing
 Contributions to the Type Learn project are welcome! If you find any issues or have suggestions for improvement, feel free to open a GitHub issue or submit a pull request.
