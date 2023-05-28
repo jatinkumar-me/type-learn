@@ -76,6 +76,18 @@ nav {
   padding: 0.3rem;
 }
 
+/* Count down styles */
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.duration-input{
+  width: 3rem;
+  margin-right: 0.3rem;
+}
+
 /* Keyboard styles */
 
 .keyboard-base {

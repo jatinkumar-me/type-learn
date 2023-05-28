@@ -56,13 +56,16 @@ const testSlice = createSlice({
         setTotalMistakes: (state) => {
             state.totalMistakes = state.totalMistakes + 1;
         },
+        setTestDuration: (state, action) => {
+            state.duration = action.payload;
+        }
     },
 
 })
 
 
 export default testSlice.reducer;
-export const { startTest, initTest, endTest, setTotalMistakes, setTotalCharacters } = testSlice.actions;
+export const { startTest, initTest, endTest, setTotalMistakes, setTotalCharacters, setTestDuration } = testSlice.actions;
 export const selectIsTestActive = (state: RootState) => state.test.isTestActive;
 export const selectText = (state: RootState) => state.test.text;
 export const selectScore = (state: RootState) => state.test.score;
