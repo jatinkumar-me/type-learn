@@ -9,8 +9,8 @@ export default function({ onClick }: { onClick: () => void }) {
       {isTestActive ? <p>Test active</p> : <button className="start-button" onClick={onClick}>Start Test ↪</button>}
     </div>
     <div className="score-container">
-      <span>Accuracy: {Math.floor(score.accuracy)}%</span>
-      <span>Speed: {Math.floor(score.cpm)} cpm</span>
+      <span>Accuracy: <b>{Math.floor(score.accuracy)}%</b></span>
+      <span>Speed: <b>{Math.floor(score.cpm)} cpm</b></span>
     </div>
   </div>
   )
