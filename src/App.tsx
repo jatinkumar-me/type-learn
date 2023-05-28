@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react"
 import Score from "./components/Score"
 import TextBox from "./components/TextBox"
-import { useDispatch, useSelector } from "react-redux"
+import { useDispatch } from "react-redux"
 import { initTest } from "./state/testSlice"
 import Navbar from "./components/Navbar"
 

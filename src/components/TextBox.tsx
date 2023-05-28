@@ -42,7 +42,6 @@ export default function TextBox({ inputRef }: { inputRef: React.RefObject<HTMLIn
 
   function handleStart() {
     dispatch(startTest());
-    console.log("test started");
   }
 
   function handleKeyUp() {
