@@ -1,6 +1,8 @@
+
 ## About
 **Type Learn** is a web application that helps you improve your typing skills. It provides a typing game where you can practice typing and enhance your speed and accuracy. The game displays a passage of text, and as you type, the caret moves along with your input. If you make any mistakes, the incorrectly typed text appears in red.
 
+<video src="https://github.com/jatinkumar-me/type-learn/assets/85551434/4df2603a-9f8d-4a30-a297-a9dfc37e34c8" width="400" controls />
 
 ## Features
 * Typing game to practice and improve typing skills.
