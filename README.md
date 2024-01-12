@@ -56,4 +56,4 @@ Contributions to the Type Learn project are welcome! If you find any issues or h
 ## Acknowledgements
 The Type Learn application was developed by Jatin Kumar.
 
-<video src="https://github.com/jatinkumar-me/type-learn/assets/85551434/4df2603a-9f8d-4a30-a297-a9dfc37e34c8" width="400" controls />
+<video src="https://github.com/jatinkumar-me/type-learn/assets/85551434/4df2603a-9f8d-4a30-a297-a9dfc37e34c8" controls />
